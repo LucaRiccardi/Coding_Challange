@@ -1,0 +1,65 @@
+body{
+  background-image:url(background.jpg);
+  background-size: 100%;
+  font-family: arial;
+}
+
+.container{
+  width: 700px;
+  margin: auto;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px 10px 10px 10px;
+  padding: 50px;
+  }
+
+.lim{
+  width: 200px;
+}
+
+.title{
+  font-size: 30px;
+  color: #00FF00;
+}
+
+.buttons{
+  background-color: #00FF00;
+  padding: 8px;
+}
+
+main{
+  color: white;
+  text-align: left;
+}
+
+.via:before{
+  content:"\27FC"
+}
+
+header, .scooter{
+  line-height: 10px;
+  margin-bottom: 40px;
+}
+
+.charge{
+  border-radius: 5px 5px 5px 5px;
+  line-height: 25px;
+}
+
+.charge.orange{
+  background-color: #F4A460;
+  width: 200px;
+  color: #F4A460;
+  }
+
+.charge.green{
+  background-color: #6FD22E;
+  width: 400px;
+  color: #6FD22E;
+}
+
+.charge.red{
+  background-color: #FF4040;
+  width: 100px;
+  color: #FF4040;
+}
